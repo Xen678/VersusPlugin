@@ -1,0 +1,20 @@
+name: VersusPlugin
+version: 1.0
+main: de.nms.versusPluginSandbox.VersusPlugin
+api-version: 1.20
+author: Lunx
+description: Ein 1vs1-Duell-Plugin für Minecraft.
+commands:
+  vs:
+    description: Fordere einen anderen Spieler zu einem 1vs1-Duell heraus.
+    usage: /<command> <player>
+  accept:
+    description: Akzeptiere ein 1vs1-Duell.
+    usage: /<command>
+  decline:
+    description: Lehne ein 1vs1-Duell ab.
+    usage: /<command>
+permissions:
+  versusplugin.use:
+    description: Erlaubt es einem Spieler, das Versus-Plugin zu verwenden.
+    default: true
